@@ -1,0 +1,50 @@
+.dropbtn {
+    background-color: #27272c;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown_hover {/*dimiourgisa to dropdown hover kai to dropdown click kai allaksa to pote mefanizetai to kathena tous sto sxolio me onoma ONCLICK/ONHOVER*/
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown_click {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #27272c;
+    min-width: 160px;
+  
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    color: #ddd;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #02c39a;}
+  
+  .dropdown_hover:hover .dropdown-content {display: block;}/*ONCLICK/ONHOVER*/
+  
+  .dropdown_hover:hover .dropbtn {background-color:#02c39a;}
+  
+  .dropdown_click:hover .dropbtn {background-color:#02c39a;}
+  
+  .show {display: block;}
+  
+  .navbar-custom{
+    background-color:#27272c;
+  }
