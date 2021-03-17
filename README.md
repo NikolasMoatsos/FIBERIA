@@ -1,2 +1,2 @@
 # FIBERIA
-Repository with the source code of our markeplace for second-hand clothes. 
+Repository with the source code of our marketplace for second-hand clothes. 
