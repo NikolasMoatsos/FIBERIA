@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+  background-color: #fffcf8;
+}
+
+.sign_in {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-check-label{
+  color: #000000;
+}
+.buttons button {
+  width: 150px;
+  font: inherit;
+  color: #000000;
+  border: 2px solid #ee8175;
+  border-radius: 25px;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px !important;
+}
+
+
+.buttons button:nth-child(1) i {
+  margin-right: 10px;
+}
+
+.buttons button:hover {
+  color: #fffcf8 !important;
+  background-color: #ee8175 !important;
+  border-color: #ee8175;
+}
+
+  .buttons {
+    flex-direction: row;
+    font-size: 15px;
+}
+.buttons button {
+    padding: 8px;
+}
+.link{
+  color:#ee8175;
+}
+a.link:hover{
+  color: #ee8175;
+}
+.marginTop{
+  margin-top: 7px;
+}

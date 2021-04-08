@@ -1,0 +1,167 @@
+:root {
+    --prm-color: #ed8074;
+    --prm-gray: #b9b9b9;
+}
+:root {
+    --prm-color: #0381ff;
+    --prm-gray: #b1b1b1;
+}
+
+body {
+    height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-evenly;
+  flex-direction:column;
+  background-color: #fffcf8;
+}
+section{
+  width:100%;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.step-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--prm-gray);
+    transition: .4s;
+}
+
+.step-button[aria-expanded="true"] {
+    width: 60px;
+    height: 60px;
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.done {
+    background-color: var(--prm-color);
+    color: #fff;
+}
+
+.step-item {
+    z-index: 10;
+    text-align: center;
+}
+
+#progress {
+    position: absolute;
+    width: 95%;
+    z-index: 5;
+    height: 10px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+    
+}
+
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+    background-color: var(--prm-color);
+    transition: .2s ease;
+}
+
+#progress::-webkit-progress-bar {
+    background-color: var(--prm-gray);
+
+}
+.accordion{
+    margin-top: 10%;
+}
+label{
+    text-align: center;
+    color: #ed8074 !important;
+    font-size: large;
+    
+}
+.form-signin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20%;
+     padding-right: 20%;
+     background-color: #fffcf8 !important;
+}
+.step-button{
+    background-color: #ed8074 !important;
+    color: white;
+}
+.step-button[aria-expanded="true"]{
+    background-color:#ed8074 !important;
+}
+.nav-pills .nav-item .nav-link.active {
+    background-color: #ed8074 !important;
+}
+.nav-link{
+    color: #fffcf8 !important;
+    background-color:  #ed80747a !important;
+}
+.nav-link :hover{
+    color: #ed8074 !important;
+}
+.btn.btn-info{
+    background-color: #ed8074 !important;
+    border-color: #ed8074 !important;
+}
+body{
+    background-color:#fffcf8 !important;
+}
+.step-title{
+    color: #ed8074 !important;
+}
+
+@media (max-width: 767px){
+    .col-lg-4{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    #shipping{
+        text-align: center;
+        color: #ed8074;
+        font-weight: bold;
+    }
+  #next{
+      margin-top: 15px;
+      width:200px;
+      float:right;
+  }
+    .steps{
+        display: none;
+    }
+    .row{
+        width: 100% !important;
+        height: max-content!important;
+    } 
+    div{
+        position: relative!important;
+    }
+    .col-md-8{
+        text-align: center;
+    }
+    }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #shipping{
+        text-align: center;
+        color: #ed8074;
+        font-weight: bold;
+    }
+    #next{
+        margin-top: 15px;
+    }
+    }
+    @media(min-width:992px){
+        #shipping{
+            display: none;
+        }
+        #next{
+            display: none;
+        }
+    }

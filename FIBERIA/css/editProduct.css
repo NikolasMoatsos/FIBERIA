@@ -1,0 +1,149 @@
+body{
+  background-color:  #fffcf8 !important;
+  color: white !important;
+  margin-bottom: 80px !important;
+}
+
+.cont{
+  margin-top:80px;
+}
+
+.forms {
+  background-color: #fffcf8 !important;
+  color: black !important;
+  border-color: #ee8175 !important;
+}
+
+.labels {
+    font-size: small;
+}
+
+.buttons {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-left: 23%;
+}
+  
+.buttons button {
+  margin: 10px;
+  width: 160px;
+  padding: 5px;
+  font: inherit;
+  border: 2px solid #27272c;
+  border-radius: 25px;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.buttons button:nth-child(1) i {
+  margin-right: 10px;
+}
+
+.buttons button:hover {
+  color: #fffcf8 !important;
+  background-color: #ee8175 !important;
+}
+
+.buttons {
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.buttons button {
+  padding: 8px;
+}
+
+.buttons2 button {
+  width: 120px;
+  font: inherit;
+  border: 2px solid #27272c;
+  border-radius: 25px;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px !important;
+}
+
+.buttons2 button:nth-child(1) i {
+  margin-right: 10px;
+}
+
+.buttons2 button:hover {
+  color: #fffcf8 !important;
+  background-color: #ee8175 !important;
+}
+
+.buttons2 {
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.buttons2 button {
+    padding: 8px;
+}
+
+.form-row.custrow{
+  margin-left:2px;
+}
+
+.custcol{
+  margin-right:55px;
+}
+
+.titl{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.custom-file-label{
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+  .custcol {
+      margin-right: 35px;
+  }
+  .prices{
+    width: 27%;
+  }
+  .buttons{
+     margin-left: 20%;
+  }
+  
+}
+
+@media (max-width: 991px) {
+  
+  .prices{
+    width: 27%;
+    margin-right: 65px;
+  }
+  .custcol{
+    margin-right: 70px;
+  }
+  .buttons{
+    display: block;
+    margin:0 auto;
+    text-align:center;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  
+  .form-row.custrowImg{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}

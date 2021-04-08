@@ -1,0 +1,80 @@
+.buttons {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 25px;
+  }
+  
+  .buttons button {
+    margin: 10px;
+    width: 150px;
+    padding: 5px;
+    font: inherit;
+    border: 2px solid #ed8074;
+    border-radius: 25px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+  
+  
+  .buttons button:nth-child(1) i {
+    margin-right: 10px;
+  }
+  
+  .buttons button:hover {
+    color: white;
+    background-color: #ed8074;
+    border-color: #ed8074;
+  }
+  
+  @media ( min-width : 1025px) {
+    .buttons {
+      flex-direction: row;
+      font-size: 15px;
+      padding-bottom: 10px;
+  }
+  .buttons button {
+      padding: 8px;
+  }
+  }
+  
+  
+  
+  @media (min-width : 670px) {
+    .buttons {
+      flex-direction: row;
+      font-size: 15px;
+  }
+  }
+  
+  .list {
+    -webkit-column-count: 3;  /* Chrome/Opera, Safari */
+    -moz-column-count: 3; /* Mozilla Firefox */
+    column-count: 3;
+  }
+  
+  body{
+    background-color:#fffcf8 !important;
+  }
+  img{
+    width: 100% !important;
+    height: 100% !important;
+    padding: 50px !important;
+  }
+  @media (max-width: 567px){
+    .buttons button{
+      width:100px
+ }     
+ .list {
+  column-count: 1;
+}
+ .buttons{
+  font-size: 13px;
+}
+ }
+  
